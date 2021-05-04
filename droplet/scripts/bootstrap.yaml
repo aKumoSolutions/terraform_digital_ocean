@@ -1,0 +1,5 @@
+#cloud-config
+package_upgrade: true
+runcmd:
+- pwd >> /tmp/check
+- whoami >> /tmp/check
