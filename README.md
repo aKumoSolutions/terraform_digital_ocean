@@ -17,5 +17,5 @@ Manage Digital Ocean with Terraform.
 
 * Generate a token in DigitalOcean and add the token to [terraform.tfvars](droplet/terraform.tfvars). Follow this [documentation](https://docs.digitalocean.com/reference/api/create-personal-access-token/#:~:text=To%20generate%20a%20personal%20access,the%20Generate%20New%20Token%20button.) on how to generate ```Digital Ocean Token```. 
 
-* You can modify ```user_data``` under [user_data](droplet/droplet.tf). 
+* You can modify ```user_data``` under [scripts](droplet/scripts/bootstrap.yaml). 
 Follow this [documentation](https://cloudinit.readthedocs.io/en/latest/topics/examples.html) on modifying ```user_data```.
