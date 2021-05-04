@@ -1,5 +1,5 @@
 # provider.tf
-do_token = "1a283deec3718b45d5200c3072ea807aa414d140e31dc442371caf512aafb417"
+do_token = ""
 
 # volume.tf
 digitalocean_region      = "nyc3"
